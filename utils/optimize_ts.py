@@ -7,7 +7,7 @@ from config import Config
 
 def aply_ts(res_all,ts):
 
-    res_binar=np.zeros(res_all.shape,dtype=np.bool)
+    res_binar=np.zeros(res_all.shape,dtype=bool)
 
     for class_num in range(len(ts)):
 
